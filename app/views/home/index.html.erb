@@ -1,0 +1,6 @@
+<h1>Create and edit your posts!</h1>
+
+<%= form_tag('/hey') do %>
+  <%= text_field_tag(:text, '', placeholder: 'Enter your post here') %>
+  <%= submit_tag('Create post') %>
+<% end %>
